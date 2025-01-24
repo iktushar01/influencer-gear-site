@@ -197,3 +197,58 @@
 }
 
 /* product section style end */
+
+.feature-section{
+    margin-bottom: 70px;
+}
+
+.feature-container{
+    gap: 100px;
+}
+
+.feature-container-title{
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    margin-bottom: 30px;
+}
+
+.feature-container-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    margin-bottom: 30px;
+}
+
+.feature-container-btn{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+
+.feature-container-btn:hover{
+    background: rgb(133, 32, 69);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.424);
+}
+
+.feature-container-btn:active{
+    background: rgb(255, 0, 93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.424);
+}
+
+.seemore{
+    font-family: Poppins;
+    margin-top: 30px;
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
