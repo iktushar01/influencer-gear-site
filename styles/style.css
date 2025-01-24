@@ -59,9 +59,15 @@
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: contain;
-      
+    transition: 0.3s ;
+
+}
+
+.hero-container-image-div:hover{
+    rotate: 15deg;
     
 }
+
 
 
 .hero-container-btn{
@@ -72,4 +78,34 @@
     background: rgb(224, 44, 109);
     padding: 10px 24px;
     border: none;
+    cursor: pointer;
+    
+    transition: 0.3s ;
+
+}
+
+.hero-container-btn:hover{
+    background: rgb(133, 32, 69);
+    padding: 10px 26px;
+    font-size: 1.175rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.424);
+}
+
+.hero-container-btn:active{
+    background: rgb(255, 0, 93);
+    padding: 10px 26px;
+    font-size: 1.125rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.424);
+}
+
+
+/* hero section end */
+
+/* brand-logo section start */
+
+.brand-logo-container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
 }
