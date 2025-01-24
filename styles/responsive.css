@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px) {
+    .hero-container{
+        flex-direction: column-reverse;
+       text-align: center;
+       gap: 10px;
+    }
+    .hero-container-title{
+        font-size: 1.75rem;
+    }
+    .hero-container-description{
+        font-size: 1rem;
+    }
+    .hero-container-image-div{
+        max-width: 100%;
+        height: auto;
+        margin: 20px 20px;
+    }
+    .hero-container-image{
+        max-width: 100%;
+        height: auto;
+      
+    }
+    .hero-container-text{
+        
+        padding: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .hero-container{
+        flex-direction: column-reverse;
+       text-align: center;
+       gap: 30px;
+    }
+}

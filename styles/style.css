@@ -3,3 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
+/* navbar section */
+.nav-hamburger-icon{
+    width: 24px;
+    height: 24px;
+}
+
+/* hero-section-style */
+
+.hero-section{
+    margin-bottom: 70px;
+}
+
+.hero-container{
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+.hero-container-title{
+    font-size: 3.25rem;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    margin-bottom: 16px;
+}
+
+.hero-container-description{
+    font-size: 1.25rem;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    margin-bottom: 16px;
+    
+}
+
+.hero-container-image-div{
+    max-width: 100%;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+      
+    
+}
+
+
+.hero-container-btn{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px;
+    border: none;
+}
